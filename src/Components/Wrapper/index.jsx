@@ -18,7 +18,14 @@ const Wrapper = (
             margin={props.margin}
             align={props.align}
             justify={props.justify}
-            position={props.posotion}
+            position={props.position}
+            top={props.top}
+            right={props.right}
+            zIndex={props.zIndex}
+            flex={props.flex}
+            border={props.border}
+            cursor={props.cursor}
+            shadow={props.shadow}
         >
             {props.children}
         </Div>
